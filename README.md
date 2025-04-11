@@ -3,9 +3,9 @@
 - dev (nơi push-pull-merge code chạy thử)
 - ha (Hà đẩy code lên nhánh này)
 - tan (Tấn đẩy code lên nhánh này)
-- trang (Tấn đẩy code lên nhánh này)
-- mon (Tấn đẩy code lên nhánh này)
-- phuong (Tấn đẩy code lên nhánh này)
+- trang (Trang đẩy code lên nhánh này)
+- mon (Môn đẩy code lên nhánh này)
+- phuong (Phương đẩy code lên nhánh này)
 
   CÂU LỆNH LÀM VIỆC VỚI GIT
   (merge code lên develop, main thì t sẽ làm
