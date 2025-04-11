@@ -13,7 +13,7 @@
   => đẩy lên nhánh của mình => Hà merge code cả nhóm lên nhánh develop
   => Các thành viên kéo code từ nhánh develop về để chạy thử
   => hoàn thiện hết tất cả thì đẩy lên main)
-1. Clone code về
+1. Clone code về:
   git clone https://github.com/hapahm/winform_laptop_nhom14.git
 2. Add + Commit + Push code của bạn
    (Với trường hợp đang làm sẵn ở project riêng của mình,
