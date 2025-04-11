@@ -28,4 +28,3 @@
 4. Cập nhật code mới từ nhánh develop
   - git checkout ten-nhanh-cua-ban
   - git pull origin develop
-
