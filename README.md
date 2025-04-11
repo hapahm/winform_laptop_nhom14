@@ -9,20 +9,21 @@
 
   CÂU LỆNH LÀM VIỆC VỚI GIT
   (merge code lên develop, main thì t sẽ làm
-  quy trình là: clone code về => code bài của mình trên visual
-  => đẩy lên nhánh của mình => Hà merge code cả nhóm lên nhánh develop
-  => Các thành viên kéo code từ nhánh develop về để chạy thử
-  => hoàn thiện hết tất cả thì đẩy lên main)
+  quy trình là:
+  - clone code về => code bài của mình trên visual
+  - đẩy lên nhánh của mình => Hà merge code cả nhóm lên nhánh develop
+  - Các thành viên kéo code từ nhánh develop về để chạy thử
+  - hoàn thiện hết tất cả thì đẩy lên main)
 1. Clone code về:
-  git clone https://github.com/hapahm/winform_laptop_nhom14.git
-2. Add + Commit + Push code của bạn
+- git clone https://github.com/hapahm/winform_laptop_nhom14.git
+3. Add + Commit + Push code của bạn
    (Với trường hợp đang làm sẵn ở project riêng của mình,
    copy các file .cs, .Designer.cs,... sang project tổng vừa clone về,
    code xong thì đẩy lên nhánh của mình trên git như bình thường)
-   git add .
-   git commit -m "Code thêm gì thì cmt vào đây"
-   git push origin ten-nhanh-cua-ban
+  - git add .
+  - git commit -m "Code thêm gì thì cmt vào đây"
+  - git push origin ten-nhanh-cua-ban
 4. Cập nhật code mới từ nhánh develop
-   git checkout ten-nhanh-cua-ban
-   git pull origin develop
+  - git checkout ten-nhanh-cua-ban
+  - git pull origin develop
 
