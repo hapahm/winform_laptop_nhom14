@@ -3,9 +3,9 @@
 - dev (nơi push-pull-merge code chạy thử)
 - ha (Hà đẩy code lên nhánh này)
 - tan (Tấn đẩy code lên nhánh này)
-- trang (Trang đẩy code lên nhánh này)
-- mon (Môn đẩy code lên nhánh này)
-- phuong (Phương đẩy code lên nhánh này)
+- trang (Tấn đẩy code lên nhánh này)
+- mon (Tấn đẩy code lên nhánh này)
+- phuong (Tấn đẩy code lên nhánh này)
 
   CÂU LỆNH LÀM VIỆC VỚI GIT
   (merge code lên develop, main thì t sẽ làm
@@ -20,6 +20,8 @@
    (Với trường hợp đang làm sẵn ở project riêng của mình,
    copy các file .cs, .Designer.cs,... sang project tổng vừa clone về,
    code xong thì đẩy lên nhánh của mình trên git như bình thường)
+  - git branch (check mình đang ở nhánh nào: main, ha, develop,..)
+  - git checkout -b ten-nhanh-cua-ban (tạo ở lần đầu tiên thoai, lần sau git checkout thoi la được)
   - git add .
   - git commit -m "Code thêm gì thì cmt vào đây"
   - git push origin ten-nhanh-cua-ban
